@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+MY SKILLS
+1. Basic C
+2. Basic Python
+3. Basic SQL
+4. Guesstimates

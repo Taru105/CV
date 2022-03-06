@@ -1,0 +1,54 @@
+h3{
+    color: darkgreen;
+}
+p,a{
+    color: salmon;    
+}
+/* li{
+    list-style: square;
+} */
+span.special,li.special{
+    color:red ;
+    font-weight: bold;
+}
+li em{
+    color: darkmagenta;
+}
+h1+p{
+    font-size: x-large;
+}
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+    text-shadow: 0ch;
+    font-size: x-large;
+}
+body p+h4 .special{
+    color: teal;
+    background-color: bisque;
+    padding: 5px;
+    animation: forwards;
+}
+#heading{
+    color: darkblue;
+    background-color: aquamarine;
+}
+p#one{
+    color: brown;
+}
+li[class]{
+    color: chocolate;
+    font-size: x-large;
+    border: darkblue;
+    background-color: aqua;
+    background-image: -moz-linear-gradient();
+}
+li[class="a"]{
+    color: royalblue;
+}
+li[class~="a"]{
+    color: rgb(255, 136, 0);
+}
+*{
+    list-style-type: none;
+}

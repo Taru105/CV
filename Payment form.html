@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2{
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 style="color: rgb(0, 225, 255);">Payment Form</h1>        
+        <p>Requested Fields are followed by *</p>
+        <h2>Contact Information</h2>
+        <p>Name:* <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender*</legend>
+            <p>
+                Male<input type="radio" name="gender" id="male" required> Female<input type="radio" name="gender" id="Female" required>
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <p>Email*: <input type="email" name="Email" id="Email" required></p>
+        <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+        <h3>Payment information</h3>
+        <p>Card Type*:</p>
+        <select name="Card_type" id="Card_type" required>
+            <option value="">--SELECT A CARD TYPE--</option>
+            <option value="Rupay">Rupay</option>
+            <option value="MasterCard">MasterCard</option>
+        </select>
+        <p>
+            Card Number* <input type="number" name="Card_number" id="Card_number" required>
+        </p>
+        <p>
+            Expiration Date*: <input type="date" name="Exp_date" id="exp_date" required>
+        </p>
+        <p>CVV <input type="password" name="CVV" id="CVV"></p>
+        <input type="submit" value="Pay Now"> fav_color<input type="color" name="favorite_color">  
+        <h4>Customer care contact no.</h4>          
+        <a href="https://sbi.co.in" target="_blank">Help Center</a>
+        <h5>T&C</h5>
+        <ul>
+            <li class="special">Please read all the terms and conditions carefully</li>
+            <li>Make sure your's cvv is not open to public</li>
+        </ul>
+        <p>This is end of this <span class="special">payment</span> form.</p>
+            <h4>For changing color of <em class="special"> particular</em> world we use<span class="special">"span"</h4>
+    </form>
+    <hr>
+    <body>
+        <h3>Just check stuff</h3>
+        <h1 id="heading" >ID Selector</h1>
+        <p>You will get bonus and cookies as you visited our website</p>
+        <p id="Form filling" ><strong>Done?</strong></p>
+        <hr>
+        <ol>
+            <li>DBOM</li>
+            <li>MATRIALS CHARACTERIZATION</li>
+            <li>EXTRACTIVE METALLURGY</li>
+            <li>PHYSICS OF MATERIALS</li>
+            <li>PHASE TRANSFORMATION</li>
+            <ol type="i">
+                <li>Hemlooooo</li>
+            </ol>
+        </ol>
+        <ul>
+            <li>Ashok sir</li>
+            <li>Qualities:-
+            <ol type="A">
+                <li>Very Good Knowledge</li>
+                <li>So strict</li>
+                <li>Punctual</li>
+                <li>Attentive and watch each student's record in a subtle way</li>
+            </ol>
+            </li>
+            <li>Anil sir</li>
+            <li class="a">Ranjeet sir</li>
+            <li class="a b">Bharat Bhushan Jhaa sir</li>
+            <li class="ab">Arvind Gali sir</li>
+        </ul>
+
+    </body>
+</body>
+</html>

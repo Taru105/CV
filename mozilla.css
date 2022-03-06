@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(223, 247, 238);    
+}
+hr{
+    border-style: none;
+    border-top-style:dotted;            
+    border-color: rgb(121, 73, 10);            
+    width: 40%;    
+    border-width: 5px;  
+              
+}
+h3{
+    color: rgb(7, 212, 144);
+    font-style: italic;
+}
+h4{
+    color: chocolate;
+}
+li{
+    color: rgb(5, 0, 10);
+}
+a:hover{
+    color: brown;
+    font-size:x-large;
+}
